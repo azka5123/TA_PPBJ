@@ -123,7 +123,7 @@ public class Client extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel2.setBackground(new java.awt.Color(51, 255, 204));
 
         jButton2.setText("Broadcast");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -160,6 +160,7 @@ public class Client extends javax.swing.JFrame {
 
         jLabel1.setText("Kirim Pesan");
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane2.setViewportView(jTextArea1);
@@ -185,8 +186,7 @@ public class Client extends javax.swing.JFrame {
                             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                 .addGap(12, 12, 12)
-                                .addComponent(jLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addComponent(jLabel1)))
                         .addGap(0, 496, Short.MAX_VALUE))
                     .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
